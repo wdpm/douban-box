@@ -29,6 +29,6 @@ jobs:
           douban-box
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          GIST_ID: fb2f4f1628498b4c689dc33e83fd509cf98eea6b
+          GIST_ID: 416a937282cb8c4239a60e5d95bcf6ce
           DOUBAN_ID: wdpm
           DOUBAN_COOKIE: ${{ secrets.DOUBAN_COOKIE }}
