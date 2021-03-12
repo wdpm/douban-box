@@ -2,6 +2,7 @@
 import { GistBox } from 'gist-box';
 import { getDoubanUserInfo, TitleMap, KeywordMap } from './douban';
 
+// how to handle cookie expired
 const {
   GIST_ID, GITHUB_TOKEN, DOUBAN_ID, DOUBAN_COOKIE,
 } = process.env;
